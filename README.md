@@ -29,6 +29,32 @@ Para lograr los objetivos planteados realizaremos un análisis exploratorio del 
 https://drive.google.com/file/d/1tM5qFHIW-8fsodvVUi2Tpz20LNL4Yo86/view. Este conjunto de datos contiene el registro diario de los videos de YouTube de mayor tendencia en India, entre los meses de noviembre de 2017 a junio de 2018. Consiste en 31737 observaciones que representan videos y su fecha en la que estuvieron en tendencia, con 20 variables que las describen.
 
 # Conclusiones
+# A
+### 1.- ¿Qué categorías de videos son las de mayor tendencia?
+De un total de 36834 videos en tendencia, la categoría entretenimiento es la de mayor tendencia con 16457 videos, al cual le sigue la categoría política & noticias con 5155 videos, el tercer lugar lo ocupa la categoría música con 3792 videos. Los últimos lugares están ocupados por las categorías películas, viajes y animales con 16,8,2 videos respectivamente.
+
+### 2.- ¿Qué categorías de videos son los que más gustan? ¿Y las que menos gustan?
+Las categorías que más gustan son entretenimiento, música y comedia con 390775502, 245529963, 172728073 likes respectivamente y las categorías que menos gustan son animales,activismo y viajes con 361228, 218112 y 16939 likes respectivamente.
+
+### 3.- ¿Qué categorías de videos tienen la mejor proporción (ratio) de “Me gusta” / “No me gusta”?
+Las 3 categorías de videos con mayor proporción de “Me gusta”/”No me gusta” son Animales, Educación y Viajes con 56.82,30.26 y 27.50 de ratio respectivamente.
+
+### 4.- ¿Qué categorías de videos tienen la mejor proporción (ratio) de “Vistas” / “Comentarios”?
+Las 3 categorías de videos con mayor proporción de “Vistas”/”Comentarios” son Shows, Películas y HowTo con 1331.16,1327.52 y 988.46 de ratio respectivamente.
+
+### 5.- ¿Cómo ha cambiado el volumen de los videos en tendencia a lo largo del tiempo?
+En noviembre del 2017 habían 3208 videos en tendencia, en los siguientes 6 meses hubo un aumento de este volumen con 5744, 5301, 4754, 5275, 4401, 5582 respectivamente. Finalmente, el volumen de videos decayó en junio del 2018 con 2479 videos.
+
+### 6.- ¿Qué canales de YouTube son tendencia más frecuentemente? ¿Y cuáles con menos frecuencia?
+Los canales de Youtube que son tendencia más frecuentemente son VikatanTv, etvteluguindia y Flowers Comedy con 280, 280 y 270 veces en tendencia respectivamente. En cambio, “Indian World”, “REPUBLIC NEWS KANNADA” y “Challenge Mantra” aparecieron solo una vez en tendencia.
+
+### 7.- ¿En qué Estados se presenta el mayor número de “Vistas”, “Me gusta” y “No me gusta”?
+El Estado con el mayor número de Vistas es Nagaland con un total de 1428962190.
+El Estado con el mayor número de Me gusta es Nagaland con un total de 39561372.
+El Estado con el mayor número de No me gusta es Nagaland con un total de 3270171.
+
+
+# B
 ### 1.- ¿Es factible predecir el número de “Vistas”, “Me gusta” o “No me gusta”?
 Sí es factible predecir las 3 variables. Con los coeficientes obtenidos se puede concluir estas predicciones:
 #### Predicción de views:
