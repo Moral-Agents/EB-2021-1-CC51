@@ -58,14 +58,32 @@ El Estado con el mayor número de No me gusta es Nagaland con un total de 327017
 ### 1.- ¿Es factible predecir el número de “Vistas”, “Me gusta” o “No me gusta”?
 Sí es factible predecir las 3 variables. Con los coeficientes obtenidos se puede concluir estas predicciones:
 #### Predicción de views:
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en likes está asociado con un incremento de 11 views.
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 705 views.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en likes está asociado con un incremento de 25.08 views.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 37.50 views.
+Con las métricas halladas se concluyó que:
+- La media del valor absoluto de lo errores es 625193.54
+- La media de los errores al cuadrado es 2507126571080.55
+- La raíz cuadrada de la media de los errores al cuadrado es 1583390.85
 #### Predicción de likes:
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en views está asociado con un incremento de 0.002 likes.
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 5 likes.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en views está asociado con un incremento de 0.025 likes.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 0.176 likes.
+Con las métricas halladas se concluyó que:
+- La media del valor absoluto de lo errores es 17984.26
+- La media de los errores al cuadrado es 2524430791.23
+- La raíz cuadrada de la media de los errores al cuadrado es 50243.71
 #### Predicción de dislikes:
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 11 views.
-Manteniendo todas las demás características fijas, un aumento de 1 unidad en dislikes está asociado con un incremento de 705 views.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en likes está asociado con un incremento de 0.011 dislikes.
+Manteniendo todas las demás características fijas, un aumento de 1 unidad en views está asociado con un incremento de 0.002 dislikes.
+Con las métricas halladas se concluyó que:
+- La media del valor absoluto de lo errores es 2014.56
+- La media de los errores al cuadrado es 207924890.09
+- La raíz cuadrada de la media de los errores al cuadrado es 14419.60
+
+### 2.- ¿Los videos en tendencia son los que mayor cantidad de comentarios positivos reciben?
+En conclusión, los videos en tendencia sí tienen más comentarios positivos que negativos, ya que se puede ver que del total hay 35428 con más comentarios positivos, a diferencia de los negativos que solo hay 475.
+Asimismo, los videos con mayor tendencia tienen más que los que están menos tendencia. Esto se sacó de una muestra de los 100 primeros y los 100 últimos. En los 100 primeros,
+todos tenían más comentarios positivos, dejando en 0 los negativos. En cambio, los 100 últimos sólo tenían 94 videos con más comentarios positivos.
+
 
 
 # Licencia
